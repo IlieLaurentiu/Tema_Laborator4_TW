@@ -1,10 +1,14 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const cors = require('cors'); 
 const sequelize = require('./config/db');
 const userRoutes = require('./routes/userRoutes');
 const path = require('path');  // Importăm path pentru a lucra cu căile fișierelor
 
 const app = express();
+
+
+
 
 // Middleware pentru a permite Express să servească fișierele statice din folderul frontend
 app.use(express.static(path.join(__dirname, '../frontend')));  // Aici servim fișierele statice

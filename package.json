@@ -15,5 +15,14 @@
     "pg": "^8.15.6",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.7"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlieLaurentiu/Tema_Laborator4_TW.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IlieLaurentiu/Tema_Laborator4_TW/issues"
+  },
+  "homepage": "https://github.com/IlieLaurentiu/Tema_Laborator4_TW#readme"
 }
